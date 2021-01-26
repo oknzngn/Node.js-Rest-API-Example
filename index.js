@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 const arabalarRoute = require('./routes/arabalar');
 const port = process.env.PORT || 5000;
-// Environment env Projenin çalışacağı anındaki ayarlarını değiştirmek için kullanılır.
+// Environment env Projenin çalışacağı andaki sunucunun portu, ||'dan sonraki local'de çalıştırdığımız port içindir.
 const bodyParser = require("body-parser");
 
 //middleware
